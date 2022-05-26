@@ -19,10 +19,10 @@ def sainte_lague(votes):
         calc_tab.append(votes[i])
 
     for i in range(num_seats):
-        maks = -1
+        max = -1
         for j in range(num_committees):
-            if maks < calc_tab[j]:
-                maks = calc_tab[j]
+            if max < calc_tab[j]:
+                max = calc_tab[j]
                 max_index = j
         distribution[max_index] += 1
         calc_tab[max_index] = calculate(votes[max_index], distribution[max_index])
