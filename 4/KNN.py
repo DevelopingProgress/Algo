@@ -32,20 +32,9 @@ class NearestNeighborClassifier:
 
 
 iris = datasets.load_iris()
-
-# Split dataset into test and training set in half
 features_train, features_test, labels_train, labels_test = train_test_split(iris.data, iris.target, test_size=0.5)
-
-# Create classifier
 model = NearestNeighborClassifier()
-
-# Train classifier using training data
 model.fit(features_train, labels_train)
-
-# Predict
 predictions = model.predict(features_test)
-
-# How accurate was classifier on testing set
 result = accuracy_score(labels_test, predictions)
 print(result)
-# Output: 0.96

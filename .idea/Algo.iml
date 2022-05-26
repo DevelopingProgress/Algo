@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="renderExternalDocumentation" value="true" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/4" />
+        <option value="$MODULE_DIR$/5" />
+        <option value="$MODULE_DIR$/6" />
+        <option value="$MODULE_DIR$/3" />
+        <option value="$MODULE_DIR$/2" />
+        <option value="$MODULE_DIR$/1" />
+      </list>
+    </option>
+  </component>
+</module>

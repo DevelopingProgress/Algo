@@ -1,11 +1,8 @@
 def anagramCheck(str1, str2):
-    # Convert string into lists
     list1 = list(str1)
     list2 = list(str2)
-    # Sort the list value
     list1.sort()
     list2.sort()
-
     position = 0
     matches = True
 

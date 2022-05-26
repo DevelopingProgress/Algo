@@ -6,8 +6,6 @@ class Graph:
     def add_edge(self, u, v, w):
         self.graph.append([u, v, w])
 
-    # Search function
-
     def find(self, parent, i):
         if parent[i] == i:
             return i
@@ -24,7 +22,6 @@ class Graph:
             parent[yroot] = xroot
             rank[xroot] += 1
 
-    #  Applying Kruskal algorithm
     def kruskal_algo(self):
         result = []
         i, e = 0, 0
